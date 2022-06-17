@@ -10,7 +10,8 @@ class Endpoints {
 
     public function __construct()
     {
-        $this->config = Configuration::getDefaultConfiguration()->setApiKey('api-key', config('services.sendinblue.api_key'));
+        $this->config = Configuration::getDefaultConfiguration()
+                                        ->setApiKey('api-key', config('services.sendinblue.api_key'));
     }
 
     public function templates($template = null)

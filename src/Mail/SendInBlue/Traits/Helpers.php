@@ -1,8 +1,7 @@
 <?php
 
 namespace Nouce\LaravelHelpers\Mail\SendInBlue\Traits;
-
-use App\Classes\SendInBlue\SendInBlue;
+use Nouce\LaravelHelpers\Mail\SendInBlue\SendInBlue;
 
 
 trait Helpers {
